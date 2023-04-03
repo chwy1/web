@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style></style>
+  </head>
+ <body style="position: relative;">
+  <img src="class 51.png" alt="Image Description" style="position: absolute; top: calc(100vw/46); left: calc(100vw/9);">
+  <div class="header_search" style="position: absolute; top: calc(100vw/42); left: calc(50vw - 100vw/35); margin-right: 20px; border-radius: 30px; border: 2px solid #f0f0f0; padding: 4px;">
+    <form method="get" action="http://sousuo.gov.cn/s.htm" id="topsearchForm" target="_blank" style="display: flex; align-items: center;">
+      <input type="hidden" name="t" value="govall">
+      <input class="header_search_txt" name="q" type="text" autocomplete="off" placeholder="Search..." style="border: none; outline: none; font-size: 16px; padding: 3px; flex-grow: 1;">
+      <input class="header_search_btn" type="submit" value="Go" style="background-color: #f0f0f0; border: none; color: #fff; padding: 6px 14px; font-size: 16px;">
+    </form>
+  </div>
+  <div class="header_links" style="position: absolute; top: calc(100vw/55); right: calc(14vw); margin-top: 20px; display: flex;">
+       <a href="http://www.gov.cn/" style="color: black; font-size: 18px;">首页</a>
+ | 
+<a href="http://big5.www.gov.cn/gate/big5/www.gov.cn/" style="color: black; font-size: 18px;">繁体</a>
+ | 
+<a href="http://english.www.gov.cn/" style="color: black; font-size: 18px;">英文EN</a>
+ | 
+<a href="https://user.www.gov.cn/sso/login?servicecode=zfwfw&gourl=http%3A%2F%2Fwww.gov.cn%2Fyaowen%2F2023-03%2F31%2Fcontent_5749576.htm" style="color: black; font-size: 18px;">登陆</a>
+ | 
+<a href="https://mail.gov.cn/nsmail/index.php" style="color: black; font-size: 18px;">邮箱</a>
+  </div>
+</body>
+</html>
